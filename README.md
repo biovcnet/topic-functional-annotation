@@ -23,7 +23,7 @@ Goals
 
 Watch the tutorial [here](https://www.youtube.com/watch?v=oHg5SJYRHA0)
 
-Follow the tutorial [here]() [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/biovcnet/topic-functional-annotation/master?urlpath=git-pull?repo=https://github.com/biovcnet/topic-functional-annotation%26amp%3Burlpath=lab/tree/https://github.com/biovcnet/topic-functional-annotation/tree/master/Lesson-1%3Fautodecode)
+Follow the tutorial [here]() [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/biovcnet/topic-functional-annotation/master?urlpath=git-pull?repo=https://github.com/biovcnet/topic-functional-annotation%26amp%3Burlpath=lab/tree/https://github.com/biovcnet/topic-functional-annotation/tree/master/Lesson-1)
 
 Access the presentation [here](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-1/Lesson-Ex.pdf)
 
