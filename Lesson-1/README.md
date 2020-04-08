@@ -8,17 +8,23 @@ Using Binder to populate a terminal environment that contains the protein predic
 
 Move into the Lesson 1 directory
 
-```cd Lesson-1```
+```
+cd Lesson-1
+```
 
 'ls' the content
 
-`ls`
+```
+ls
+```
 
 A single FASTA file is present `MED921-Poseidoniales.fasta`
 
 Generate the Prodigal help command
 
-`prodigal -h`
+```
+prodigal -h
+```
 
 We are going to compare the results running of Prodigal with the `single` and `meta` parameter options associated with the `-p` flag
 
@@ -36,10 +42,14 @@ Check the contents of the output file with `less`. You can refer the [Prodigal](
 
 Compare the total number of predicted proteins
 
-`grep ">" MED921-proteins-single.faa | wc -l`
+```
+grep ">" MED921-proteins-single.faa | wc -l
+```
 
 and 
 
-`grep ">" MED921-proteins-meta.faa | wc -l`
+```
+grep ">" MED921-proteins-meta.faa | wc -l
+```
 
 Are these differences meaningful? 
