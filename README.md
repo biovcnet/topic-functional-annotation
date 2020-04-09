@@ -21,9 +21,9 @@ Goals
 * Tools for predicting open reading frames for Eukaryotes
 * Converting open reading frames to predicted proteins
 
-[Watch the lesson](https://www.youtube.com/watch?v=oHg5SJYRHA0)
+[Watch the lesson](https://youtu.be/uGjjN-q7N2E)
 
-[Watch the tutorial]()
+[Watch the tutorial](https://youtu.be/on2fZveY8sU)
 
 Follow the tutorial [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/biovcnet/topic-functional-annotation/master?urlpath=lab)
 
@@ -41,7 +41,7 @@ Goals
 * Databases
 * Interpreting similarity based results
 
-Watch the tutorial here
+[Watch the tutorial](https://www.youtube.com/watch?v=oHg5SJYRHA0)
 
 Follow the tutorial here
 
