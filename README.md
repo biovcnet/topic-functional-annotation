@@ -27,7 +27,7 @@ Goals
 
 Follow the tutorial [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/biovcnet/topic-functional-annotation/master?urlpath=lab)
 
-[Access the presentation](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-1/Lesson-Ex.pdf)
+[Access the presentation](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-1/Lesson-1.pdf)
 
 
 # Lesson 2
