@@ -25,7 +25,7 @@ Goals
 
 [Watch the tutorial](https://youtu.be/on2fZveY8sU)
 
-Follow the tutorial [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/biovcnet/topic-functional-annotation/master?urlpath=lab)
+[Follow the tutorial](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-1/README.md)
 
 [Access the presentation](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-1/Lesson-1.pdf)
 
