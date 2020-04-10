@@ -29,13 +29,13 @@ prodigal -h
 We are going to compare the results running of Prodigal with the `single` and `meta` parameter options associated with the `-p` flag
 
 ```
-prodigal -i MED921-Poseidoniales.fasta -a MED921-proteins-single.faa -d MED921-genes-single.faa -o prodigal-MED921-single.out -m -p single
+prodigal -i MED921-Poseidoniales.fasta -a MED921-proteins-single.faa -d MED921-genes-single.fna -o prodigal-MED921-single.out -m -p single
 ```
 
 and
 
 ```
-prodigal -i MED921-Poseidoniales.fasta -a MED921-proteins-meta.faa -d MED921-genes-meta.faa -o prodigal-MED921-meta.out -m -p meta
+prodigal -i MED921-Poseidoniales.fasta -a MED921-proteins-meta.faa -d MED921-genes-meta.fna -o prodigal-MED921-meta.out -m -p meta
 ```
 
 Check the contents of the output file with `less`. You can refer the [Prodigal](https://github.com/hyattpd/prodigal/wiki/understanding-the-prodigal-output) help page to determine what the various outputs mean.
