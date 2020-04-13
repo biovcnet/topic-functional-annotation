@@ -29,6 +29,18 @@ Goals
 
 [Access the presentation](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-1/Lesson-1.pdf)
 
+### Lesson 1 FAQ
+Q. When you talk about multiples N and use the command -m, that N are genomes or contings/clusters?
+
+A. The Ns refer to a run of base pairs in a DNA sequence for which it is unclear which bp is actually there. A sequence like this would be fine ATGCANGTCAGA, but sequence like ATGCCCNNNNNNNNNNNNNNGTACAC would be thrown out. The reason being that some assemblers will stitch together sequences using Ns to represent a gap and that gap could be hundreds of bps long. If Prodigal ran across that gap it runs the potential of creating a chimeric protein.
+
+Q. The -p function when you decide to use single or meta, why you would use one over another?
+
+A. [From the Prodgial GitHub issues](https://github.com/hyattpd/Prodigal/issues/57#issuecomment-536608100): You always want "-p single" when you know everything belongs to one genome. So, yes, "-p single" (the default, don't need to specify this) on binned contigs. "-p meta" should be used on short sequences (when insufficient data exists to train on), and on any mixed samples (metagenomic assemblies, etc.)
+
+Q. The input is raw data - such as a sequence obtained but yet processed? 
+
+A. The input would be any bacterial or archaeal genome that you have the untranslated DNA for but are looking to generate the proteins.
 
 # Lesson 2
 ### Title: Orthology based functional annotation
