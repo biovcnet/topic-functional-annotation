@@ -6,12 +6,11 @@ Using Binder to populate a terminal environment that contains the alignment tool
 
 ## Set-up
 
-Move into the directory with the data
-
-List the content
+Create a directory and move our data into that directory.
 
 ```bash
-ls
+mkdir blast-example
+mv *faa ./blast-example
 ```
 We will be working with 2 files:
 
@@ -22,7 +21,7 @@ We will be working with 2 files:
 
 As determined by CheckM - the MAG TMED155 is 64.63% complete with 1.29% redundancy.
 
-`carbon-fixation-markers.faa` contains 326 proteins chosen to represent key marker genes in the 5 established carbon fixation pathways - Calvin-Benson-Bassham, reverst TCA, Wood-Ljungdahl, 3-hydroxypropionate bicycle, & 3-hydroxypropionate/4-hydroxybutyrate cycle.
+`carbon-fixation-markers.faa` contains 326 proteins chosen to represent key marker genes in the 5 established carbon fixation pathways - Calvin-Benson-Bassham, reverse TCA, Wood-Ljungdahl, 3-hydroxypropionate bicycle, & 3-hydroxypropionate/4-hydroxybutyrate cycle.
 
 ## BLAST Walkthrough
 
@@ -37,7 +36,7 @@ Creates 3 index files that end in `*phr`, `*pin`, `*psq`
 To compare the TMED155 proteins against the carbon fixation gene database, run a `BLASTP` command.
 
 ```bash
-blastp -query Cyanobacteria-TMED155.orfs.faa -db carbon-fixation-markers.faa -out BLAST_fulloutput.txt -evalue 1e-20 -num_descriptions 5 -num_alignments 5
+blastp -query Cyanobacteria-TMED155.orfs.faa -db carbon-fixation-markers.faa -out BLAST_fulloutput.txt -evalue 1e-20 -num_descriptions 5 -num_alignments 5
 ```
 
 Let's check the contents of the output
@@ -74,7 +73,7 @@ We can grab all of them at once with something like...
 ```bash
 awk '{if ($9>=50) print }' BLAST_output.tab | cut -f1,4 | sort -k 2 > TMED155-BLAST-matches.tmp
 cut -f2 TMED155-BLAST-matches.tmp > gene-matches.tmp
-grep -f gene-matches.tmp carbon-fixation-markers.faa | sed 's/\>//' | sort > gene-matches-descriptions.tmp
+grep -f gene-matches.tmp carbon-fixation-markers.faa | sed 's/>//' | sort > gene-matches-descriptions.tmp
 paste TMED155-BLAST-matches.tmp gene-matches-descriptions.tmp | sort > TMED155-BLAST-matches.tsv
 rm *.tmp
 ```
@@ -117,7 +116,7 @@ Compare the annotations as above:
 ```bash
 awk '{if ($9>=50) print }' TMED155-diamond-more-sensitive.tab | cut -f1,4 | sort -k 2 > TMED155-diamond-matches.tmp
 cut -f2 TMED155-diamond-matches.tmp > gene-matches.tmp
-grep -f gene-matches.tmp carbon-fixation-markers.faa | sed 's/\>//' | sort > gene-matches-descriptions.tmp
+grep -f gene-matches.tmp carbon-fixation-markers.faa | sed 's/>//' | sort > gene-matches-descriptions.tmp
 paste TMED155-diamond-matches.tmp gene-matches-descriptions.tmp | sort > TMED155-diamond-matches.tsv
 rm *.tmp
 ```
