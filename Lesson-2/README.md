@@ -2,7 +2,7 @@
 
 [![Binder](http://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/biovcnet/functional-annotation-lesson-2-binder/master?urlpath=lab)
 
-Using Binder to populate a terminal environment that contains the alignment tools BLAST and DIAMOND.
+Using Binder to populate a terminal environment that contains the alignment tools [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download) and [DIAMOND](https://diamond.readthedocs.io/en/latest/).
 
 ## Set-up
 
