@@ -43,19 +43,21 @@ Q. The input is raw data - such as a sequence obtained but yet processed?
 A. The input would be any bacterial or archaeal genome that you have the untranslated DNA for but are looking to generate the proteins.
 
 # Lesson 2
-### Title: Orthology based functional annotation
+### Title: Inferring function from homologous matches
+
 Goals
 
 * Difference between homolog and ortholog?
-* Tools for orthology based functional annotation
+* Tools for homology based functional annotation
     * BLAST+
     * DIAMOND
-* Databases
-* Interpreting similarity based results
+* In the tutorial: interpreting similarity based results
+
+[Watch the lesson](https://www.youtube.com/watch?v=9bZkp7q19f0)
 
 [Watch the tutorial](https://www.youtube.com/watch?v=oHg5SJYRHA0)
 
-Follow the tutorial here
+[Follow the tutorial](https://github.com/biovcnet/topic-functional-annotation/tree/master/Lesson-2)
 
-Access the presentation [here](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-2/Presentation1.pdf)
+[Access the presentation](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-2/Lesson-2.pdf)
 
