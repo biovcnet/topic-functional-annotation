@@ -11,6 +11,7 @@ Create a directory and move our data into that directory.
 ```bash
 mkdir blast-example
 mv *faa ./blast-example
+cd blast-example
 ```
 We will be working with 2 files:
 
