@@ -53,7 +53,7 @@ Goals
     * DIAMOND
 * In the tutorial: interpreting similarity based results
 
-[Watch the lesson](https://youtu.be/MpScSM_d3Vo)
+[Watch the lesson](https://youtu.be/sOFoytKXrHA)
 
 [Watch the tutorial](https://youtu.be/u81xc86ifM8)
 
