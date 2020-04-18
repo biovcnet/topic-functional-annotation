@@ -53,11 +53,19 @@ Goals
     * DIAMOND
 * In the tutorial: interpreting similarity based results
 
-[Watch the lesson](https://www.youtube.com/watch?v=9bZkp7q19f0)
+[Watch the lesson](https://youtu.be/MpScSM_d3Vo)
 
-[Watch the tutorial](https://www.youtube.com/watch?v=oHg5SJYRHA0)
+[Watch the tutorial](https://youtu.be/u81xc86ifM8)
 
 [Follow the tutorial](https://github.com/biovcnet/topic-functional-annotation/tree/master/Lesson-2)
 
 [Access the presentation](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-2/Lesson-2.pdf)
+
+# Lesson 3
+### Title: Function from position-sensitive models
+
+Goals
+
+* How do position-sensitive models work?
+* How to use a position-sensitive model to interpret function
 
