@@ -83,6 +83,20 @@ Take a look inside the file to see if the alignments make sense.  Kick out any s
 less -S MyD88.msa
 ```
 
+There are two key parts of the alignment that suggest it might not be great quality - the string a gaps in most sequences at the start and end of the alignment. We can removed those sequences and re-run muscle.
+
+```bash
+rm MyD88.msa
+nano MyD88.faa
+```
+
+Then find the sequences `tr|M4I212|M4I212_CRAGI` and `tr|A0A2B4RVP2|A0A2B4RVP2_STYPI` and use `Ctrl+k` to cut the lines (header + sequence) for both sequences. Save and close. Re-run the multiple sequence alignment.
+
+```bash
+muscle -in MyD88.faa -out MyD88.msa
+```
+
+
 Then, we are going to use hmmbuild to analyze the occurrence of each peptide in relation to the position in the aligned proteins.
 
 ```bash
@@ -106,6 +120,13 @@ Look at the results in the Bugula.MyD88.domtblout
 
 ```bash
 less Bugula.MyD88.domtblout
+```
+
+Compare hmmscan to hmmsearch
+
+```bash
+hmmsearch --tblout Bugula.MyD88.tblout MyD88.hmm Bugula.pep
+less Bugula.MyD88.tblout
 ```
 
 Are there any potential matches to our hmm model?
