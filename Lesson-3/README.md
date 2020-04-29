@@ -62,6 +62,7 @@ The first step is to give it a set of data for calculating probabilities.
 There are two common sources for reference data sets for HMMER:
 
 1.) precomputed hmm profiles in public databases (e.g. Pfam)
+
 2.) manually created multiple sequence alignments
 
 We are going to do approach #2 first.
@@ -111,15 +112,17 @@ Are there any potential matches to our hmm model?
 
 ---
 
-##Predict multiple genes simultaneously
+## Predict multiple genes simultaneously
 
-It can take a lot of time to do multiple sequence alignments for individual genes, so we are going to switch to using a reference HMM database profile to annotate all the predicted proteins in our genome. (myBinder does not want to download the full Pfam database, so we'll skip this step)
+Building HMM models for specific genes of interest can be time consuming. In this example, the sequences were collected and screened prior to the start of the tutorial. There were numerous HMM databases to switch to which can be used to annotate multiple proteins at once. Specific HMM databases will be covered in future lessons, but one example is [Pfam](https://pfam.xfam.org/)
 
-`hmmscan --domtblout Bugula.Pfam.domtblout Pfam-A.hmm Bugula.pep`
+(myBinder does not want to download the full Pfam database, so we'll skip this part of the example)
+
+`hmmsearch --domtblout Bugula.Pfam.domtblout Pfam-A.hmm Bugula.pep`
 
 
-This can be interrupted and the file can be read without hurting anything.  So let the program run for a little while then hit Control-C.
+Things to consider:
 
-    1.) How much does the reference database influence our ability to annotate the Bugula genome?
+    1.) How much does the reference database influence our ability to annotate a genome?
     2.) Which approach was more sensitive - local alignments with BLAST or hmm profile search with HMMER?
-    3.) What strategies might you use with these two tools to improve your annotations?
+    3.) What roles do these approaches play in a robust annotation pipeline?
