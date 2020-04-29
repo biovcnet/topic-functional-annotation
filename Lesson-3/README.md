@@ -135,7 +135,7 @@ Are there any potential matches to our hmm model?
 
 ## Predict multiple genes simultaneously
 
-Building HMM models for specific genes of interest can be time consuming. In this example, the sequences were collected and screened prior to the start of the tutorial. There were numerous HMM databases to switch to which can be used to annotate multiple proteins at once. Specific HMM databases will be covered in future lessons, but one example is [Pfam](https://pfam.xfam.org/)
+Building HMM models for specific genes of interest can be time consuming. In this example, the sequences were collected and screened prior to the start of the tutorial. There are numerous HMM databases to switch to which can be used to annotate multiple proteins at once. Specific HMM databases will be covered in future lessons, but one example is [Pfam](https://pfam.xfam.org/)
 
 (myBinder does not want to download the full Pfam database, so we'll skip this part of the example)
 
