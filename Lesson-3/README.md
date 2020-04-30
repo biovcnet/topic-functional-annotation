@@ -8,7 +8,7 @@ Using Binder to populate a terminal environment that contains the alignment tool
 
 ## Organism and Genes of Interest
 
-![Bugula neritina](https://en.wikipedia.org/wiki/Bryozoa), "moss animals" 
+![Bugula neritina](https://upload.wikimedia.org/wikipedia/commons/d/d4/Bugula_neritina_%28YPM_IZ_101969%29_002.jpeg), "moss animals" 
 
 ---
 
