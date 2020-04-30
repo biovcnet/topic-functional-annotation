@@ -30,7 +30,9 @@ The starting point in this tutorial is a set of protein models of MyD88 from oth
 
 - protein sequences collected from UniProt (we will cover this in an upcoming tutorial)
 
-- [Link to a paper on innate immunity genes such as MyD88?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4109969/){:target="_blank"}
+- [Link to a paper on innate immunity genes such as MyD88?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4109969/)
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4109969/" target="_blank">Hello, world!</a>
 
 
 ---
