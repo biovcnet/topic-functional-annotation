@@ -8,6 +8,10 @@ Using Binder to populate a terminal environment that contains the alignment tool
 
 ## Organism and Genes of Interest
 
+We recently finished annotating the Bryozoan Bugula neritina, which is hundreds of millions of years old, and very difficult to relate to other known genes in invertebrates.  
+
+Here is a picture of what a Bryozoan looks like.  They colonize rocks in the marine environment.
+
 ![Bugula neritina](https://upload.wikimedia.org/wikipedia/commons/d/d4/Bugula_neritina_%28YPM_IZ_101969%29_002.jpeg), "moss animals" 
 
 ---
@@ -52,6 +56,16 @@ This should be a rather short blast operation, because we only have a few sequen
 ```bash
 less blastp.MyD88.Bugula.pep.outfmt6
 ```
+
+To exit from the "less" command, push lower case "q" on your keyboard.
+
+#### Spoiler Alert on what you should see
+
+<details><summary>CLICK ME</summary>
+<p>
+#### The file is empty
+</p>
+</details>
 
 ### Let's try a probabilistic approach with HMMER (HMMER: biosequence analysis using profile hidden Markov models)
 
