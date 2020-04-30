@@ -8,7 +8,11 @@ Using Binder to populate a terminal environment that contains the alignment tool
 
 ## Organism and Genes of Interest
 
-[Bugula neritina](https://en.wikipedia.org/wiki/Bryozoa), "moss animals" 
+We recently finished annotating the Bryozoan Bugula neritina, which is hundreds of millions of years old, and very difficult to relate to other known genes in invertebrates.  
+
+Here is a picture of what a Bryozoan looks like.  They colonize rocks in the marine environment.
+
+![Bugula neritina](https://upload.wikimedia.org/wikipedia/commons/d/d4/Bugula_neritina_%28YPM_IZ_101969%29_002.jpeg), "moss animals" 
 
 ---
 
@@ -16,9 +20,17 @@ Using Binder to populate a terminal environment that contains the alignment tool
 
 Use MyD88: innate immune signal transduction adaptor
 
-- protein sequences collected from UniProt
+Innate immunity is a pathogenic defense mechanism in invertebrates.  The genes can be highly conserved. MyD88 is a known signal transduction adaptor for toll-like receptors that triggers a pathogen-associated molecular pattern  of response in other organisms.  Innate immunity genes will allow organisms to recognize their invaders and fend them off or allow them to cohabitate.
 
-- [What is MyD88?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4109969/)
+Bryozoans have a population of bacterial symbionts, much like the relationship between zooxanthellae and coral.  These microbial organisms are important for fighting cancer, as they produce a unique set of compounds known as [bryostatins.](https://www.ncbi.nlm.nih.gov/pubmed/24033119)
+
+Understanding how the bryozoan allows these symbionts to colonize instead of fending them off is an interesting puzzle to solve.
+
+The starting point in this tutorial is a set of protein models of MyD88 from other organisms.
+
+- protein sequences collected from UniProt (we will cover this in an upcoming tutorial)
+
+- [Here is a paper that describes more about innate immunity genes such as MyD88.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4109969/)
 
 
 ---
@@ -52,6 +64,16 @@ This should be a rather short blast operation, because we only have a few sequen
 ```bash
 less blastp.MyD88.Bugula.pep.outfmt6
 ```
+
+To exit from the "less" command, push lower case "q" on your keyboard.
+
+#### Spoiler Alert on what you should see
+
+<details><summary>CLICK ME</summary>
+<p>
+#### The file is empty
+</p>
+</details>
 
 ### Let's try a probabilistic approach with HMMER (HMMER: biosequence analysis using profile hidden Markov models)
 
