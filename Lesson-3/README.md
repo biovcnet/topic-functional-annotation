@@ -12,7 +12,7 @@ We recently finished annotating the Bryozoan Bugula neritina, which is hundreds 
 
 Here is a picture of what a Bryozoan looks like.  They colonize rocks in the marine environment.
 
-![Bugula neritina](https://upload.wikimedia.org/wikipedia/commons/d/d4/Bugula_neritina_%28YPM_IZ_101969%29_002.jpeg), "moss animals" 
+![Bugula neritina](https://upload.wikimedia.org/wikipedia/commons/d/d4/Bugula_neritina_%28YPM_IZ_101969%29_002.jpeg) 
 
 ---
 
