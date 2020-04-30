@@ -20,9 +20,17 @@ Here is a picture of what a Bryozoan looks like.  They colonize rocks in the mar
 
 Use MyD88: innate immune signal transduction adaptor
 
-- protein sequences collected from UniProt
+Innate immunity is a pathogenic defense mechanism in invertebrates.  The genes can be highly conserved. MyD88 is a known signal transduction adaptor for toll-like receptors that triggers a pathogen-associated molecular pattern  of response in other organisms.  Innate immunity genes will allow organisms to recognize their invaders and fend them off or allow them to cohabitate.
 
-- [What is MyD88?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4109969/)
+Bryozoans have a population of bacterial symbionts, much like the relationship between zooxanthellae and coral.  These microbial organisms are important for fighting cancer, as they produce a unique set of compounds known as [bryostatins.](https://www.ncbi.nlm.nih.gov/pubmed/24033119)
+
+Understanding how the bryozoan allows these symbionts to colonize instead of fending them off is an interesting puzzle to solve.
+
+The starting point in this tutorial is a set of protein models of MyD88 from other organisms.
+
+- protein sequences collected from UniProt (we will cover this in an upcoming tutorial)
+
+- [Link to a paper on innate immunity genes such as MyD88?](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4109969/){:target="_blank"}
 
 
 ---
