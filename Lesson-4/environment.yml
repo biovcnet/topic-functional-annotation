@@ -1,0 +1,12 @@
+name: env-name-here-does-not-matter
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python =3.8
+  - pip
+  - diamond =0.9.30
+  - blast =2.9.0
+  - hmmer =3.2.1
+  - prodigal =2.6.3
