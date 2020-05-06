@@ -13,59 +13,101 @@ This BVCN topic will cover:
 * the methodologies used to assign functions to proteins
 * the intricacies of the specific tools and databases that can used for varying levels of specificity
 
-# Lesson 1
-### Title: How to predict open reading frames on DNA?
-Goals
-
+# Lessons
+## Lesson 1 -- How to predict open reading frames on DNA
+### Introductory material
+Date posted: 9 April 2020  
+Author(s): Dr. Benjamin Tully  
+Instructor(s): Dr. Benjamin Tully  
 * Tools for predicting open reading frames for Bacteria and Archaea
 * Tools for predicting open reading frames for Eukaryotes
 * Converting open reading frames to predicted proteins
 
-[Watch the lesson](https://youtu.be/uGjjN-q7N2E)
+[Content](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-1/Lesson-1.pdf) | [Video presentation](https://youtu.be/uGjjN-q7N2E)
+### Interactive material
+Date posted: 9 April 2020  
+Author(s): Dr. Benjamin Tully  
+Instructor(s): Dr. Benjamin Tully  
+* Use Prodigal to predict microbial proteins
 
-[Watch the tutorial](https://youtu.be/on2fZveY8sU)
+[Content](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-1/README.md) | [Video presentation](https://youtu.be/on2fZveY8sU) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/biovcnet/topic-functional-annotation/master?urlpath=lab)
 
-[Follow the tutorial](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-1/README.md)
+Primary tools/programs used:
+ * [Prodigal](https://github.com/hyattpd/Prodigal)
+ * [GeneMarkS-2](http://exon.gatech.edu/GeneMark/index.html)
+ * [Braker](https://github.com/Gaius-Augustus/BRAKER)
+ * [Maker](http://www.yandell-lab.org/software/maker.html)
 
-[Access the presentation](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-1/Lesson-1.pdf)
+---
 
-### Lesson 1 FAQ
-Q. When you talk about multiples N and use the command -m, that N are genomes or contings/clusters?
-
-A. The Ns refer to a run of base pairs in a DNA sequence for which it is unclear which bp is actually there. A sequence like this would be fine ATGCANGTCAGA, but sequence like ATGCCCNNNNNNNNNNNNNNGTACAC would be thrown out. The reason being that some assemblers will stitch together sequences using Ns to represent a gap and that gap could be hundreds of bps long. If Prodigal ran across that gap it runs the potential of creating a chimeric protein.
-
-Q. The -p function when you decide to use single or meta, why you would use one over another?
-
-A. [From the Prodgial GitHub issues](https://github.com/hyattpd/Prodigal/issues/57#issuecomment-536608100): You always want "-p single" when you know everything belongs to one genome. So, yes, "-p single" (the default, don't need to specify this) on binned contigs. "-p meta" should be used on short sequences (when insufficient data exists to train on), and on any mixed samples (metagenomic assemblies, etc.)
-
-Q. The input is raw data - such as a sequence obtained but yet processed? 
-
-A. The input would be any bacterial or archaeal genome that you have the untranslated DNA for but are looking to generate the proteins.
-
-# Lesson 2
-### Title: Inferring function from homologous matches
-
-Goals
-
+## Lesson 2 -- Inferring function from homologous matches
+### Introductory material
+Date posted: 18 April 2020  
+Author(s): Dr. Benjamin Tully  
+Instructor(s): Dr. Benjamin Tully  
 * Difference between homolog and ortholog?
 * Tools for homology based functional annotation
-    * BLAST+
-    * DIAMOND
-* In the tutorial: interpreting similarity based results
 
-[Watch the lesson](https://youtu.be/sOFoytKXrHA)
+[Content](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-2/Lesson-2.pdf) | [Video presentation](https://youtu.be/sOFoytKXrHA)
 
-[Watch the tutorial](https://youtu.be/u81xc86ifM8)
+### Interactive material
+Date posted: 9 April 2020  
+Author(s): Dr. Benjamin Tully  
+Instructor(s): Dr. Benjamin Tully  
+* Use BLAST+ and DIAMOND
+* Interpret similarity based results  
 
-[Follow the tutorial](https://github.com/biovcnet/topic-functional-annotation/tree/master/Lesson-2)
+[Content](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-2/README.md) | [Video presentation](https://youtu.be/u81xc86ifM8) | [![Binder](https://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/biovcnet/functional-annotation-lesson-2-binder/master?urlpath=lab)  
 
-[Access the presentation](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-2/Lesson-2.pdf)
+Primary tools/programs used:
+ * [BLAST+](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download)
+ * [DIAMOND](https://github.com/bbuchfink/diamond)
 
-# Lesson 3
-### Title: Function from position-sensitive models
+---
 
-Goals
-
+## Lesson 3 -- Function from position-sensitive models
+### Introductory material
+Date posted: 1 May 2020  
+Author(s): Dr. Benjamin Tully, Dr. Adelaide Rhodes  
+Instructor(s): Dr. Benjamin Tully  
 * How do position-sensitive models work?
 * How to use a position-sensitive model to interpret function
+
+[Content](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-3/Lesson-3.pdf) | [Video presentation](https://youtu.be/sIqPpmadiRg)
+
+### Interactive material
+Date posted: 1 May 2020  
+Author(s): Dr. Benjamin Tully, Dr. Adelaide Rhodes  
+Instructor(s): Dr. Benjamin Tully  
+* Use HMMER
+* Interpret HMM search results  
+
+[Content](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-3/README.md) | [Video presentation](https://youtu.be/sbDjLR0LvjU) | [![Binder](https://mybinder.org/badge_logo.svg)](http://mybinder.org/v2/gh/biovcnet/functional-annotation-lesson-3-binder/master?urlpath=lab)  
+
+Primary tools/programs used:
+ * [HMMER](http://hmmer.org/)
+
+---
+
+## Lesson 4 -- HMM-based annotation - FeGene Introduction 
+### Introductory material
+Date posted: 5 May 2020   
+Author(s): Arkadiy Garber   
+Instructor(s): Arkadiy Garber   
+* Describe the process for making HMM to detected iron-related proteins
+* How FeGenie works
+
+[Content](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-4/FeGenie%20intro%20and%20tutorial.pdf) | [Video presentation](https://www.youtube.com/watch?v=sp5ZDcHaYOc)
+
+### Interactive material
+Date posted: 5 May 2020   
+Author(s): Arkadiy Garber   
+Instructor(s): Arkadiy Garber   
+* Demonstration of how FeGenie identifies iron-related proteins
+
+[Content](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-4/README.md) | [Video presentation](https://www.youtube.com/watch?v=WV0GAGSD4kc) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Arkadiy-Garber/bvcn-binder-FeGenie/master?urlpath=lab)  
+
+Primary tools/programs used:
+ * [FeGenie](https://github.com/Arkadiy-Garber/FeGenie)
+    * [Citation](https://www.frontiersin.org/articles/10.3389/fmicb.2020.00037/full)
 
