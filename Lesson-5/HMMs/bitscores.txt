@@ -1,6 +1,0 @@
-Cyc1.hmm	60
-MtrA.hmm	70
-Catalase.hmm	19.60
-MtrC_TIGR03507.hmm	209.30
-MtrB_TIGR03509.hmm	240.05
-Cyc2_repCluster1.hmm	31.5
