@@ -94,7 +94,7 @@ Primary tools/programs used:
 Date posted: 5 May 2020   
 Author(s): Arkadiy Garber   
 Instructor(s): Arkadiy Garber   
-* Describe the process for making HMM to detected iron-related proteins
+* Describe the process for making HMM to detect iron-related proteins
 * How FeGenie works
 
 [Content](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-4/FeGenie%20intro%20and%20tutorial.pdf) | [Video presentation](https://www.youtube.com/watch?v=sp5ZDcHaYOc)
@@ -110,4 +110,36 @@ Instructor(s): Arkadiy Garber
 Primary tools/programs used:
  * [FeGenie](https://github.com/Arkadiy-Garber/FeGenie)
     * [Citation](https://www.frontiersin.org/articles/10.3389/fmicb.2020.00037/full)
+
+---
+
+## Lesson 5 -- targeted HMM-based annotation - MagicCave 
+### Introductory material
+Date posted: 7 May 2020   
+Author(s): Arkadiy Garber   
+Instructor(s): Arkadiy Garber   
+* Profiling datasets using HMMs
+* HMMER web interface
+* Getting HMMs from Pfam and TIGRFAMS
+* MagicLamp introduction
+* Make your own genie with HmmGenie
+
+[Content](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-4/FeGenie%20intro%20and%20tutorial.pdf) | [Video presentation](https://www.youtube.com/watch?v=sp5ZDcHaYOc)
+
+### Interactive material
+Date posted: 5 May 2020   
+Author(s): Arkadiy Garber   
+Instructor(s): Arkadiy Garber   
+* Demonstration of how FeGenie identifies iron-related proteins
+
+[Content](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-4/README.md) | [Video presentation](https://www.youtube.com/watch?v=WV0GAGSD4kc) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Arkadiy-Garber/bvcn-binder-FeGenie/master?urlpath=lab)  
+
+Primary tools/programs used:
+ * [FeGenie](https://github.com/Arkadiy-Garber/FeGenie)
+    * [Citation](https://www.frontiersin.org/articles/10.3389/fmicb.2020.00037/full)
+
+
+
+
+
 
