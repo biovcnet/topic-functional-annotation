@@ -134,7 +134,11 @@ Instructor(s): Arkadiy Garber
 * Demontration on how to make your own HMMs
 * Demontration on how to use your own HMM sets with HmmGenie
 
-[Content](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-5/README.md) | [Video presentation 1](https://www.youtube.com/watch?v=zhvHgVkURwg) | [Video presentation 2](https://www.youtube.com/watch?v=LKX678JzRfU) | [![Binder](https://mybinder.org/badge_logo.svg)](https://gesis.mybinder.org/binder/v2/gh/biovcnet/bvcn-binder-magiclamp/master?urlpath=lab) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/biovcnet/bvcn-binder-hmmgenie/master?urlpath=lab)
+[Content](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-5/README.md) | [Video presentation 1](https://www.youtube.com/watch?v=zhvHgVkURwg) | [Video presentation 2](https://www.youtube.com/watch?v=LKX678JzRfU)
+
+tutorial 1: [![Binder](https://mybinder.org/badge_logo.svg)](https://gesis.mybinder.org/binder/v2/gh/biovcnet/bvcn-binder-magiclamp/master?urlpath=lab)
+
+tutorial 2: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/biovcnet/bvcn-binder-hmmgenie/master?urlpath=lab)
 
 
 Primary tools/programs used:
