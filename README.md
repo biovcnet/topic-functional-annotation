@@ -124,19 +124,20 @@ Instructor(s): Arkadiy Garber
 * MagicLamp introduction
 * Make your own genie with HmmGenie
 
-[Content](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-4/FeGenie%20intro%20and%20tutorial.pdf) | [Video presentation](https://www.youtube.com/watch?v=sp5ZDcHaYOc)
+[Content](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-5/Lesson-5-Annotation-with-HMMs.pdf) | [Video presentation](https://www.youtube.com/watch?v=TUjxP_8d-MY)
 
 ### Interactive material
 Date posted: 5 May 2020   
 Author(s): Arkadiy Garber   
 Instructor(s): Arkadiy Garber   
-* Demonstration of how FeGenie identifies iron-related proteins
+* Demonstration of how MagicLamp profiles datasets with various HMM sets
+* Demontration on how to make your own HMMs
+* Demontration on how to use your own HMM sets with HmmGenie
 
-[Content](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-4/README.md) | [Video presentation](https://www.youtube.com/watch?v=WV0GAGSD4kc) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Arkadiy-Garber/bvcn-binder-FeGenie/master?urlpath=lab)  
+[Content](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-5/README.md) | [Video presentation](https://www.youtube.com/watch?v=zhvHgVkURwg) | [![Binder](https://mybinder.org/badge_logo.svg)](https://gesis.mybinder.org/binder/v2/gh/biovcnet/bvcn-binder-magiclamp/master?urlpath=lab)
 
 Primary tools/programs used:
- * [FeGenie](https://github.com/Arkadiy-Garber/FeGenie)
-    * [Citation](https://www.frontiersin.org/articles/10.3389/fmicb.2020.00037/full)
+ * [FeGenie](https://github.com/Arkadiy-Garber/MagicCave)
 
 
 
