@@ -1,4 +1,4 @@
-# Binder for BVCN MagicLamp lesson
+# Binder for BVCN MagicLamp lesson 1
 
 Initially forked from [here](https://github.com/binder-examples/conda). Thank you to the awesome [binder](https://mybinder.org/) team!
 
@@ -93,7 +93,7 @@ check out the results
 
 
 
-# Binder for BVCN Functional Annotation lesson
+# Binder for BVCN MagicLamp lesson 2 (HmmGenie)
 
 Initially forked from [here](https://github.com/binder-examples/conda). Thank you to the awesome [binder](https://mybinder.org/) team!
 
