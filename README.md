@@ -127,7 +127,7 @@ Instructor(s): Arkadiy Garber
 [Content](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-5/Lesson-5-Annotation-with-HMMs.pdf) | [Video presentation](https://www.youtube.com/watch?v=TUjxP_8d-MY)
 
 ### Interactive material
-Date posted: 5 May 2020   
+Date posted: 7 May 2020   
 Author(s): Arkadiy Garber   
 Instructor(s): Arkadiy Garber   
 * Demonstration of how MagicLamp profiles datasets with various HMM sets
@@ -145,6 +145,38 @@ Primary tools/programs used:
  * [MagicCave](https://github.com/Arkadiy-Garber/MagicCave)
 
 
+---
+
+## Lesson 6 -- Annotation with KEGG 
+### Introductory material
+Date posted: 22 May 2020   
+Author(s): Arkadiy Garber & Ben Tully   
+Instructor(s): Ben Tully & Arkadiy Garber   
+* Introduction to KEGG
+* KEGG online interface
+* GhostKOALA and BlastKOALA
+* GHOSTX
+* KOALA-formatter
+* KofamKoala
+* KEGG-Decoder
+
+[Content](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-6/Lesson-6-Annotation-with-KEGG.pdf) | [Video presentation](https://www.youtube.com/watch?v=1v4UzjE7K2g)
+
+### Interactive material
+Date posted: 22 May 2020   
+Author(s): Ben Tully   
+Instructor(s): Ben Tully   
+* Demonstration of how to use KEGG-Decoder
+
+[Content](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-6/README.md) | [Video presentation](https://www.youtube.com/watch?v=fdqVTmvT3j4) | [![Binder](https://mybinder.org/badge_logo.svg)](https://gesis.mybinder.org/binder/v2/gh/Arkadiy-Garber/bvcn-binder-kegg-koala/master?urlpath=lab)
+
+
+Primary tools/programs used:
+ * [GhostKOALA](https://www.kegg.jp/ghostkoala/)
+ * [BlastKOALA](https://www.kegg.jp/blastkoala/)
+ * [KofamKOALA](https://www.genome.jp/tools/kofamkoala/)
+ * [KEGG-Decoder](https://github.com/bjtully/BioData/tree/master/KEGGDecoder)
+ * [KOALA-formatter](https://github.com/Arkadiy-Garber/KOALA-formatter)
 
 
 
