@@ -192,16 +192,15 @@ Instructor(s): Arkadiy Garber
 * Introduction to AntiSMASH
 * Overview of AntiSMASH web interface
 
-[Content](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-7/Lesson-7-AntiSMASH.pdf) | [Video presentation](
-ADD LINK TO YOUTUBE)
+[Content](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-7/Lesson-7-AntiSMASH.pdf) | [Video presentation](https://youtu.be/GMIFF81Or4E)
 
 ### Interactive material
-Date posted: 22 May 2020   
+Date posted: 3 August 2020   
 Author(s): Arkadiy Garber   
 Instructor(s): Arkadiy Garber   
 * Demonstration of how to use standalone command-line AntiSMASH
 
-[Content](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-7/README.md) | [Video presentation](ADD LINK TO YOUTUBE) | [![Binder](https://mybinder.org/badge_logo.svg)](https://gesis.mybinder.org/binder/v2/gh/biovcnet/bvcn-binder-antismash/master?urlpath=lab)
+[Content](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-7/README.md) | [Video presentation](https://youtu.be/seiPm8-Of7c) | [![Binder](https://mybinder.org/badge_logo.svg)](https://gesis.mybinder.org/binder/v2/gh/biovcnet/bvcn-binder-antismash/master?urlpath=lab)
 
 
 Primary tools/programs used:
