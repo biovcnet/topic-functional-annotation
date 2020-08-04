@@ -177,6 +177,36 @@ Primary tools/programs used:
  * [KofamKOALA](https://www.genome.jp/tools/kofamkoala/)
  * [KEGG-Decoder](https://github.com/bjtully/BioData/tree/master/KEGGDecoder)
  * [KOALA-formatter](https://github.com/Arkadiy-Garber/KOALA-formatter)
+ 
+ 
+ ---
+
+## Lesson 7 -- Annotation AntiSMASH 
+### Introductory material
+Date posted: 3 August 2020   
+Author(s): Arkadiy Garber 
+Instructor(s): Arkadiy Garber   
+* Introduction to Secondary Metabolites
+* Antimicrobials
+* Siderophores
+* Introduction to AntiSMASH
+* Overview of AntiSMASH web interface
+
+[Content](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-7/Lesson-7-AntiSMASH.pdf) | [Video presentation](
+ADD LINK TO YOUTUBE)
+
+### Interactive material
+Date posted: 22 May 2020   
+Author(s): Arkadiy Garber   
+Instructor(s): Arkadiy Garber   
+* Demonstration of how to use standalone command-line AntiSMASH
+
+[Content](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-7/README.md) | [Video presentation](ADD LINK TO YOUTUBE) | [![Binder](https://mybinder.org/badge_logo.svg)](https://gesis.mybinder.org/binder/v2/gh/Arkadiy-Garber/bvcn-binder-antismash/master?urlpath=lab)
+
+
+Primary tools/programs used:
+ * [AntiSMASH](https://antismash.secondarymetabolites.org/#!/about)
+ * [Mike Lee's bioin_tools](https://github.com/AstrobioMike/bioinf_tools)
 
 
 
