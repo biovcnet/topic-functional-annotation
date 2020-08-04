@@ -201,7 +201,7 @@ Author(s): Arkadiy Garber
 Instructor(s): Arkadiy Garber   
 * Demonstration of how to use standalone command-line AntiSMASH
 
-[Content](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-7/README.md) | [Video presentation](ADD LINK TO YOUTUBE) | [![Binder](https://mybinder.org/badge_logo.svg)](https://gesis.mybinder.org/binder/v2/gh/Arkadiy-Garber/bvcn-binder-antismash/master?urlpath=lab)
+[Content](https://github.com/biovcnet/topic-functional-annotation/blob/master/Lesson-7/README.md) | [Video presentation](ADD LINK TO YOUTUBE) | [![Binder](https://mybinder.org/badge_logo.svg)](https://gesis.mybinder.org/binder/v2/gh/biovcnet/bvcn-binder-antismash/master?urlpath=lab)
 
 
 Primary tools/programs used:
