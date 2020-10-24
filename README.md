@@ -208,5 +208,28 @@ Primary tools/programs used:
  * [Mike Lee's bioin_tools](https://github.com/AstrobioMike/bioinf_tools)
 
 
+ ---
 
+## Lesson 8 -- Pseudofinder 
+### Introductory material
+Date posted: 14 October 2020   
+Author(s): Arkadiy Garber 
+Instructor(s): Arkadiy Garber   
+* Introduction to pseudogenes
+* Pseudofinder algorithm overview
+* Pseudofinder output
+
+[Content](https://github.com/biovcnet/bvcn-binder-pseudofinder/blob/master/Lesson-8-PseudoFinder.pdf) | [Video presentation](LINK)
+
+### Interactive material
+Date posted: 14 October 2020 
+Author(s): Arkadiy Garber   
+Instructor(s): Arkadiy Garber   
+* Demonstration of how to use Pseudofinder
+
+[Content](https://github.com/biovcnet/bvcn-binder-pseudofinder/blob/master/README.md) | [Video presentation](LINK) | [![Binder](https://mybinder.org/badge_logo.svg)](https://gesis.mybinder.org/binder/v2/gh/biovcnet/bvcn-binder-pseudofinder/master?urlpath=lab)
+
+
+Primary tools/programs used:
+ * [Pseudofinder](https://github.com/filip-husnik/pseudofinder)
 
