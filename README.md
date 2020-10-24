@@ -219,7 +219,7 @@ Instructor(s): Arkadiy Garber
 * Pseudofinder algorithm overview
 * Pseudofinder output
 
-[Content](https://github.com/biovcnet/bvcn-binder-pseudofinder/blob/master/Lesson-8-PseudoFinder.pdf) | [Video presentation](LINK)
+[Content](https://github.com/biovcnet/bvcn-binder-pseudofinder/blob/master/Lesson-8-PseudoFinder.pdf) | [Video presentation](https://www.youtube.com/watch?v=h8sko_KEnD4)
 
 ### Interactive material
 Date posted: 14 October 2020 
@@ -227,7 +227,7 @@ Author(s): Arkadiy Garber
 Instructor(s): Arkadiy Garber   
 * Demonstration of how to use Pseudofinder
 
-[Content](https://github.com/biovcnet/bvcn-binder-pseudofinder/blob/master/README.md) | [Video presentation](LINK) | [![Binder](https://mybinder.org/badge_logo.svg)](https://gesis.mybinder.org/binder/v2/gh/biovcnet/bvcn-binder-pseudofinder/master?urlpath=lab)
+[Content](https://github.com/biovcnet/bvcn-binder-pseudofinder/blob/master/README.md) | [Video presentation](https://www.youtube.com/watch?v=OWtdr6EqOYU) | [![Binder](https://mybinder.org/badge_logo.svg)](https://gesis.mybinder.org/binder/v2/gh/biovcnet/bvcn-binder-pseudofinder/master?urlpath=lab)
 
 
 Primary tools/programs used:
